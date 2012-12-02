@@ -1,0 +1,2 @@
+gcc -Wall -I/usr/local/include -c hist2dv1.c
+gcc -L/usr/local/lib hist2dv1.o -lgsl -lgslcblas -lm -o hist2dv1
